@@ -74,7 +74,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     lights.vivow \
     sensors.vivow \
-    gps.vivow
+    gps.vivow \
+    camera.msm7x30
 
 # Input device calibration files
 PRODUCT_COPY_FILES += \
