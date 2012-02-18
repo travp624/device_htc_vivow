@@ -83,5 +83,5 @@ postprocess.denoise_level=5
 ro.camera.sound.disabled=1
 
 # USB Mount
-persist.sys.usb.config=mass_storage,adb
+#persist.sys.usb.config=mass_storage,adb
 persist.service.adb.enable=1

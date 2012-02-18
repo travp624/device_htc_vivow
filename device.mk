@@ -220,3 +220,6 @@ PRODUCT_COPY_FILES += \
 # Softkey Rotation Script
 PRODUCT_COPY_FILES += \
     device/htc/vivow/rotate_lights.sh:/system/etc/rotate_lights.sh
+    
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mass_storage
